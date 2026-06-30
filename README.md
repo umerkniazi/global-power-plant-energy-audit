@@ -10,7 +10,9 @@ Cleaned and filtered the dataset to plants with valid country, fuel type, capaci
 
 ## Results
 
-![Confusion matrix for the Random Forest classifier](figures/confusion_matrix.png)
+<p align="center">
+  <img src="figures/confusion_matrix.png" width="300"/>
+</p>
 
 | Model | Accuracy |
 |---|---|
@@ -45,7 +47,7 @@ Python, pandas, NumPy, scikit-learn, matplotlib, seaborn
 ## Run locally
 
 ```bash
-git clone https://github.com/<your-username>/global-power-plant-energy-audit.git
+git clone https://github.com/umerkniazi/global-power-plant-energy-audit
 cd global-power-plant-energy-audit
 pip install -r requirements.txt
 jupyter notebook notebooks/energy_transition_audit.ipynb
